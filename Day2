@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Day2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <header id="header">
+            <div class="list">
+                <a class="active" href="Day2.html">Home</a>
+                <a href="Education.html">Education</a>
+                <a href="Contact.html">Contact-Me</a>
+                <a href="https://drive.google.com/file/d/1Isz-fuKmebUEWvkGUxz4JT60Wp398P1Q/view?usp=sharing" class="right">My Resume</a> 
+            </div>
+    </header>
+    <div class="content">
+        
+    <div class="intro">
+        <h1>My Introduction</h1>
+    </div>
+    <img src="Mohit.jpg">
+    <div class="para" style="text-align: justify;">
+    <p>Hello, I'mohit Mittal, a passionate MCA student from the batch of 2022-2024 at KIET Group of Institutions. With a solid foundation in BCA, I've honed my skills in SQL database management and web development. My academic journey reflects a commitment to excellence, and my enthusiasm for technology drives my pursuit of knowledge. Eager to explore the dynamic world of IT, I specialize in crafting robust SQL databases and engaging in web development projects. Through my portfolio, I showcase a blend of academic prowess and practical expertise, aiming to contribute innovative solutions to the evolving landscape of information technology</p>
+</div>
+</div>
+<footer class="page-footer">
+    <div class="social-icons">
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-facebook"></a>
+    </div>
+</footer>
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+body {
+    background: url(Background\ -\ Copy.webp);
+}
+.list {  
+
+        overflow: hidden;
+        background-color: black;
+        position: sticky; 
+        position: -webkit-sticky;
+        top: 0; 
+        padding: 20px 25px;
+        margin: 10px;
+}
+.list a{
+    float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 10px;
+}
+.list a.right {
+    float: right;
+  }
+  .list a.active {
+    background-color: #666;
+    color: white;
+  }
+  .content .intro{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    text-shadow:aliceblue;
+    font-family:sans-serif;
+  }
+  .content .para 
+  {
+     font-size: 20px;
+      color:white;
+      font-weight: 100; 
+      font-family: Arial, Helvetica, sans-serif;
+     
+     padding: 20px; 
+    border: 2px solid honeydew;
+    border-radius: 25px;
+    width: 650px;
+    text-decoration: none;
+    text-justify: inter-word;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .content  img {
+    height: 480px;
+    width: 380px;
+    border: 2px solid honeydew;
+    border-radius: 10px ;
+    display: block;
+    padding: 5px;
+    float: right;
+    margin-right: 70px;
+  }
+  .page-footer {
+    background-color: black;
+    padding: 1.5em; 
+    display: flex;
+    margin-top: 160px;
+  }
+  .fa {
+    display: block;
+    font-size: 50px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    padding: 1px 20px;
+    margin: 10px;
+  }
+  .fa:hover{
+    opacity: 0.5;
+  }
+  .fa-instagram {
+    color: white;
+    margin-left: 500px;
+    font-weight: 200;
+  }
+  .fa-facebook {
+    color: white;
+  }
+  .fa-linkedin {
+    color: white;
+  }
+  .fa-youtube {
+    color: white;
+  }
