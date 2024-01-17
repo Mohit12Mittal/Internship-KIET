@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page
+    </title>
+    <link rel="stylesheet" href="Day3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="header1">
+    <a href="https://mittalgroup.com/about-us/" class="logo">Mittal's Group</a>
+    <a class="home" href="#">Product</a>
+     <a href="#">Solutions</a>
+     <a href="#">Template</a>
+     <a href="#">Learning</a>
+     <a href="#">Pricing</a>
+     <div class="login">
+        <a href="#">Login</a>
+     </div>
+    </div>
+    <div class="header2">
+        <a href="#" class="active">Infographics</a>
+        <a href="#">Daily-Infographics</a>
+        <a href="#">Marketing</a>
+        <a href="#">Business</a>
+        <a href="#">Graphic Design</a>
+        <a href="#">Graphic and Charts</a>
+    </div>
+     <iframe width="560" height="315" class="videos1" src="https://www.youtube.com/embed/LrWRGC3KGA8?si=x-lxdw2-yjExlOyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     <div class="para">
+        <p>
+            Mittal Group was founded in 1907 by late Mr. Gangaram Mittal. Six generations of the family have transformed a small Brass mill into India’s largest manufacturer of Cases, Tubes, Cups, Coin Blanks, Medals, Strips and Foils. Mittal Appliances has an A- credit rating.
+            <br/>
+            <br/>
+
+Our flagship companies Mittal Appliances Limited and Mittal Coin Private Limited are engaged in producing small arm ammunition components, catering to the needs of prestigious clientele worldwide, collectively employing more than 500 highly-trained people, with revenues crossing US$130 million (INR 10 billion), as on March 31, 2022.
+<br>
+<br>
+We are driven by ethics and committed to deliver value to our customers. We believe in honesty, integrity and transparency, enabling a mutually beneficial and long-lasting relationship with our customers. We are committed and responsible towards sustainability and betterment of the society.
+        </p>
+     </div>
+</body>
+</html>
+
+-----------------------------------    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+body {
+    background-color:black;
+}
+.header1 {
+    background-color: rgb(236, 225, 200);
+}
+
+.header1 a{
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+     padding: 0px 2px; 
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header1 .home {
+    margin-left: 300px;
+}
+.header1 .logo {
+    font-size: 22px;
+    font-family:sans-serif;
+}
+.header1 .login {
+    display: inline;
+    float:inline-end;
+    margin-right: 20px;
+}
+.header2 {
+    background-color: rgb(20, 20, 123);
+    padding: 5px;;
+}
+.header2 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-flex;
+}
+.videos1 {
+    float: right;
+    margin: 100px;  
+}
+.para p {
+    border: 2px hidden;
+    display: block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+    margin: 100px;
+    text-align: justify;
+    color: white;
+    text-shadow: 1px 1px 1px yellowgreen;
+}
